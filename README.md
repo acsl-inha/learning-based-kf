@@ -9,7 +9,7 @@ problem 1 : Learning tau
 
 problem 2 : Learning Q matrinx
 
-![123](https://user-images.githubusercontent.com/57785895/99908416-e5f4d600-2d25-11eb-99eb-f8c3db4fea79.png)
+![Learning Q](https://user-images.githubusercontent.com/57785895/99908474-34a27000-2d26-11eb-864f-dd0f5e64e0d4.png)
 
 
 Learning Animation : tau 0.006 -> 0.69
