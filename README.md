@@ -11,7 +11,7 @@ result :
 ![Learning tau](https://user-images.githubusercontent.com/57785895/99908424-ef7e3e00-2d25-11eb-9573-9850b3e8df56.png)
 
 
-problem 2 : Learning Q matrinx
+problem 2 : Learning Q matrix
 result :
  - loss =　8.4605  
  - Q　=　| 1.2696444 ,   0.45706612 |  
