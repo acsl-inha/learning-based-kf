@@ -14,11 +14,10 @@ result :
 problem 2 : Learning Q matrinx
 result :
  - loss =　8.4605  
- - Q　=　| 1.2668414 ,   0.45741442 |  
-　　　 | 0.45741442 ,   1.9585645 |
+ - Q　=　| 1.2696444 ,   0.45706612 |  
+　　　 | 0.45706612 ,   1.9576418 |
  
-
-![Learning Q](https://user-images.githubusercontent.com/57785895/99908474-34a27000-2d26-11eb-864f-dd0f5e64e0d4.png)
+![Learning Q_2](https://user-images.githubusercontent.com/57785895/100187865-5cfbbb80-2f2c-11eb-9ab8-fab581ee8ae5.png)
 
 
 Learning Animation : tau 0.006 -> 0.69
