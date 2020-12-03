@@ -1,9 +1,13 @@
 # learning-based-kf
 
 ## Note
-This program requires CVXPY version 1.1.0 or greater.
+This program requires CVXPY version 1.1.0 or greater
 ```
 pip install --upgrade cvxpy
+```
+and cvxpyLayer
+```
+pip install cvxpylayers
 ```
 
 ## Overview
