@@ -3,17 +3,22 @@
 ## Discription
 
 
-A discrete-time linear dynamical system consists of a sequence of state vectors x<sub>t</sub> ∈ R^2  , indexed by time  t∈{0,…,N−1}  and dynamics equations
+A discrete-time linear dynamical system consists of a sequence of state vectors x<sub>t</sub> ∈ R<sup>2</sup>  , indexed by time  t∈{0,…,N−1}  and dynamics equations
 
-![image](https://user-images.githubusercontent.com/57785895/100954675-5e466d00-3558-11eb-9d24-1f3021621c34.png)
+![image](https://user-images.githubusercontent.com/57785895/100959190-15df7d00-3561-11eb-998d-5b4189344629.png)
 
-where  w<sub>w</sub> ∈ R^m  is an input to the dynamical system (say, a drive force on the vehicle),  y<sub>t</sub> ∈R<sup>r</sup>  is a state measurement,  v<sub>t</sub> ∈R<sup>r</sup>  is noise,  A  is the drift matrix,  B  is the input matrix, and  C  is the observation matrix.
+where  w<sub>t</sub> ∈ R<sup>m</sup>  is an input to the dynamical system (say, a drive force on the vehicle),  y<sub>t</sub> ∈R<sup>r</sup>  is a state measurement,  v<sub>t</sub> ∈R<sup>r</sup>  is noise,  A  is the drift matrix,  B  is the input matrix, and  C  is the observation matrix.
 
 Given  A ,  B ,  C , and  yt  for  t=0,…,N−1 , the goal is to estimate  xt  for  t=0,…,N−1 .
 
-![image](https://user-images.githubusercontent.com/57785895/100954703-6bfbf280-3558-11eb-9037-b6fd9b90678c.png)
+We'll apply standard and Kalman filtering to a vehicle tracking problem with state  x<sub>t</sub>∈R<sup>4</sup> , where the first two states are the position of the vehicle in two dimensions, and the last two are the vehicle velocity. The vehicle has unknown drive force  w<sub>t</sub> , and we observe noisy measurements of the vehicle's position,  y<sub>t</sub>∈R<sup>2</sup> .
 
-![image](https://user-images.githubusercontent.com/57785895/100954722-7918e180-3558-11eb-9874-f805494706eb.png)
+Then the following matrices the above dynamics.
+
+![image](https://user-images.githubusercontent.com/57785895/100959212-22fc6c00-3561-11eb-8468-351c848c3ef7.png)
+
+
+![image](https://user-images.githubusercontent.com/57785895/100959141-fba59f00-3560-11eb-8e66-39b00b497e5f.png)
 
 problem 1 : Learning tau
 result :
