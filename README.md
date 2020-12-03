@@ -1,7 +1,9 @@
 # learning-based-kf
 
+## Discription
 
-A discrete-time linear dynamical system consists of a sequence of state vectors  xt∈Rn , indexed by time  t∈{0,…,N−1}  and dynamics equations
+A discrete-time linear dynamical system consists of a sequence of state vectors  ![image](https://user-images.githubusercontent.com/57785895/100954562-23dcd000-3558-11eb-87c6-d6e0e8aa1d1c.png)
+xt∈Rn , indexed by time  t∈{0,…,N−1}  and dynamics equations
 
 
 problem 1 : Learning tau
