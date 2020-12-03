@@ -11,7 +11,7 @@ and cvxpyLayer
 pip install cvxpylayers
 ```
 
-## Overview
+## Introduction
 Parameters of the Kalman filter must be determined experimentally, but this process takes a long time and effort. So we intended to automate this process using machine learning.
 
 This program learns the parameters of the Kalman filter using **cvxpy**, **cvxpyLayer** and **pytorch**.
