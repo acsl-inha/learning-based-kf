@@ -7,7 +7,7 @@ pip install --upgrade cvxpy
 ```
 
 ## Overview
-Parameters of the Kalman filter must be determined experimentally, but this process takes a lot of time and effort. So we intend to automate this process using machine learning.
+Parameters of the Kalman filter must be determined experimentally, but this process takes a long time and effort. So we intended to automate this process using machine learning.
 
 This program learns the parameters of the Kalman filter using **cvxpy**, **cvxpyLayer** and **pytorch**.
 
