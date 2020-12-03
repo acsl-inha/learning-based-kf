@@ -1,8 +1,10 @@
 # learning-based-kf
 
 ## Discription
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML" ></script>
 
-A discrete-time linear dynamical system consists of a sequence of state vectors ** x<sub>t</sub> ∈ R^n**  , indexed by time  t∈{0,…,N−1}  and dynamics equations
+
+A discrete-time linear dynamical system consists of a sequence of state vectors ** x<sub>t</sub> ∈ R^2**  , indexed by time  t∈{0,…,N−1}  and dynamics equations
 
 ![image](https://user-images.githubusercontent.com/57785895/100954675-5e466d00-3558-11eb-9d24-1f3021621c34.png)
 
