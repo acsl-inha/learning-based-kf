@@ -2,8 +2,19 @@
 
 ## Discription
 
-A discrete-time linear dynamical system consists of a sequence of state vectors  ![image](https://user-images.githubusercontent.com/57785895/100954562-23dcd000-3558-11eb-87c6-d6e0e8aa1d1c.png)
-xt∈Rn , indexed by time  t∈{0,…,N−1}  and dynamics equations
+A discrete-time linear dynamical system consists of a sequence of state vectors $x_t \in \R^n$, indexed by time $t\in \{0,\dots,N-1\}$ and dynamics equations
+
+$$
+\begin{aligned}
+  x_{t+1} &= Ax_t + Bw_t \\
+  y_{t} &= Cx_t + v_t   
+\end{aligned}
+$$
+
+where $w_t\in\R^m$ is an input to the dynamical system (say, a drive force on the vehicle), $y_t\in\R^r$ is a state measurement, $v_t\in\R^r$ is noise, $A$ is the drift matrix, $B$ is the input matrix, and $C$ is the observation matrix.
+
+Given $A$, $B$, $C$, and $y_t$ for $t=0,\dots,N−1$, the goal is to estimate $x_t$ for $t=0,\dots,N−1$.
+
 
 
 problem 1 : Learning tau
