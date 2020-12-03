@@ -9,7 +9,7 @@ pip install --upgrade cvxpy
 ## Overview :
 Parameters of the Kalman filter must be determined experimentally, but this process takes a lot of time and effort. So we intend to automate this process using machine learning.
 
-This program learns the parameters of the Kalman filter using cvxpy, cvxpyLayer and pytorch
+This program learns the parameters of the Kalman filter using **cvxpy**, **cvxpyLayer** and **pytorch**.
 
 ## Dynamic System Modeling
 
@@ -35,8 +35,12 @@ The 2x2 Q matrix is symmetric and semidefinite
 
 ## Learning Steps
 
-1. Define the Convex Opitmization problem using cvxpy and set it to Displined Parameterized Porblem(DPP).
+1. Define the convex opitmization problem using cvxpy and set it to Disciplined Parametrized Programming(DPP).
+```
+  problem = cp.Problem(cp.Minimize(objective_fn), constraints)
 
+  assert problem.is_dcp(dpp=True)
+```
 2. Create a learning model for DPP problems with CvxpyLayer.
 ```
   layer = CvxpyLayer(problem, parameters=[tau_dpp], variables=[x_dpp, w_dpp, v_dpp])
@@ -53,7 +57,10 @@ The 2x2 Q matrix is symmetric and semidefinite
 ```
 
 5. Update the parameter (**τ** or **Q**).
-
+```
+  loss.backward(retain_graph=True)
+  opt.step()
+```
 
 ## Result
 
