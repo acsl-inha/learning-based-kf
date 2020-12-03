@@ -1,7 +1,12 @@
 # learning-based-kf
 
-## Discription
+## Note
+This program requires CVXPY version 1.1.0 or greater.
+```
+pip install --upgrade cvxpy
+```
 
+## Discription
 
 A discrete-time linear dynamical system consists of a sequence of state vectors <strong>x<sub>t</sub> ∈ R<sup>2</sup></strong>  , indexed by time  <strong>t∈{0,…,N−1}</strong>  and dynamics equations
 
@@ -24,27 +29,32 @@ A Kalman filter estimates   <strong>x<sub>t</sub></strong>  by solving the optim
 
 The 2x2 Q matrix is symmetric and semidefinite
 
-problem 1 : Learning tau
-result :
+
+
+## Result
+
+### problem 1 : Learning tau
+**result :**
+
 ![image](https://user-images.githubusercontent.com/57785895/100960109-f9444480-3562-11eb-9506-8f9d3fb15fe0.png)
 
 
 ![Learning tau](https://user-images.githubusercontent.com/57785895/99908424-ef7e3e00-2d25-11eb-9573-9850b3e8df56.png)
 
 
-problem 2 : Learning Q matrix
-result :
+### problem 2 : Learning Q matrix
+**result :**
 
 ![image](https://user-images.githubusercontent.com/57785895/100959769-58ee2000-3562-11eb-8c1f-27387b962be5.png)
  
 ![Learning Q_2](https://user-images.githubusercontent.com/57785895/100187865-5cfbbb80-2f2c-11eb-9ab8-fab581ee8ae5.png)
 
 
-Learning Animation : tau 0.006 -> 0.69
+#### Learning Animation : τ 0.006 → 0.69
 
 ![kf_animaint_1](https://user-images.githubusercontent.com/57785895/99908174-6dd9e080-2d24-11eb-841c-63a924860943.gif)
 
 
-Learning Animation : tau 88 -> 0.69
+#### Learning Animation : τ 88 → 0.69
 
 ![kf_animation_2](https://user-images.githubusercontent.com/57785895/99908182-7df1c000-2d24-11eb-8ed5-6c407660147d.gif)
