@@ -23,9 +23,9 @@ Then the following matrices the above dynamics.
 ![image](https://user-images.githubusercontent.com/57785895/100959212-22fc6c00-3561-11eb-8468-351c848c3ef7.png)
 
 
-A Kalman filter estimates   <strong>x<sub>t</sub></strong>  by solving the optimization problems
+A Kalman filter estimates   <strong>x<sub>t</sub></strong>  by solving the optimization problems with some tuning parameters **τ** or **Q**
 
-![image](https://user-images.githubusercontent.com/57785895/100959141-fba59f00-3560-11eb-8e66-39b00b497e5f.png)
+![image](https://user-images.githubusercontent.com/57785895/100961621-1595b080-3566-11eb-9f52-dbb18d07e178.png)
 
 The 2x2 Q matrix is symmetric and semidefinite
 
