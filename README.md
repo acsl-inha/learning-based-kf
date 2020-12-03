@@ -2,7 +2,9 @@
 
 ## Discription
 
-$\x~t in R = 0$
+$\lim_{x \to \infty} \exp(-x) = 0$
+
+
 ![image](https://user-images.githubusercontent.com/57785895/100954675-5e466d00-3558-11eb-9d24-1f3021621c34.png)
 
 ![image](https://user-images.githubusercontent.com/57785895/100954703-6bfbf280-3558-11eb-9037-b6fd9b90678c.png)
