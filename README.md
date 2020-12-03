@@ -35,7 +35,7 @@ The 2x2 Q matrix is symmetric and semidefinite
 ### problem 1 : Learning tau
 **result :**
 
-![image](https://user-images.githubusercontent.com/57785895/100960109-f9444480-3562-11eb-9506-8f9d3fb15fe0.png)
+![image](https://user-images.githubusercontent.com/57785895/100963280-63f87e80-3569-11eb-856f-c0785c1e3500.png)
 
 
 ![Learning tau](https://user-images.githubusercontent.com/57785895/99908424-ef7e3e00-2d25-11eb-9573-9850b3e8df56.png)
