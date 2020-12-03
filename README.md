@@ -23,10 +23,10 @@ A Kalman filter estimates   <strong>x<sub>t</sub></strong>  by solving the optim
 ![image](https://user-images.githubusercontent.com/57785895/100959141-fba59f00-3560-11eb-8e66-39b00b497e5f.png)
 
 problem 1 : Learning tau
-result :
+result : <strong>
  - loss = 8.5167
  - learend tau = 0.6980
-
+</strong>
 ![Learning tau](https://user-images.githubusercontent.com/57785895/99908424-ef7e3e00-2d25-11eb-9573-9850b3e8df56.png)
 
 The 2x2 Q matrix is symmetric and semidefinite
@@ -34,7 +34,9 @@ The 2x2 Q matrix is symmetric and semidefinite
 
 problem 2 : Learning Q matrix
 result :
+
 <strong> - loss =　8.4605  </strong>
+
 ![image](https://user-images.githubusercontent.com/57785895/100959769-58ee2000-3562-11eb-8c1f-27387b962be5.png)
  
 ![Learning Q_2](https://user-images.githubusercontent.com/57785895/100187865-5cfbbb80-2f2c-11eb-9ab8-fab581ee8ae5.png)
