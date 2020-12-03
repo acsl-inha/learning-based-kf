@@ -2,10 +2,13 @@
 
 ## Discription
 
-$\lim_{x \to \infty} \exp(-x) = 0$
-
+A discrete-time linear dynamical system consists of a sequence of state vectors ** x<sub>t</sub> ∈ R^n**  , indexed by time  t∈{0,…,N−1}  and dynamics equations
 
 ![image](https://user-images.githubusercontent.com/57785895/100954675-5e466d00-3558-11eb-9d24-1f3021621c34.png)
+
+where  w<sub>w</sub> ∈ R^m  is an input to the dynamical system (say, a drive force on the vehicle),  y<sub>t</sub>  ∈R^r  is a state measurement,  v<sub>t</sub> ∈R^r  is noise,  A  is the drift matrix,  B  is the input matrix, and  C  is the observation matrix.
+
+Given  A ,  B ,  C , and  yt  for  t=0,…,N−1 , the goal is to estimate  xt  for  t=0,…,N−1 .
 
 ![image](https://user-images.githubusercontent.com/57785895/100954703-6bfbf280-3558-11eb-9037-b6fd9b90678c.png)
 
