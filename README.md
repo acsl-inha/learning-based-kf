@@ -46,7 +46,6 @@ The 2x2 Q matrix is symmetric and semidefinite
   problem = cp.Problem(cp.Minimize(objective_fn), constraints)
 
   assert problem.is_dcp(dpp=True)
-  
 ```
 2. Create a learning model for DPP problems with CvxpyLayer.
 ```
