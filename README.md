@@ -37,9 +37,11 @@ The 2x2 Q matrix is symmetric and semidefinite
 
 1. Define the convex opitmization problem using cvxpy and set it to Disciplined Parametrized Programming(DPP).
 ```
+  ˙˙˙
   problem = cp.Problem(cp.Minimize(objective_fn), constraints)
 
   assert problem.is_dcp(dpp=True)
+  
 ```
 2. Create a learning model for DPP problems with CvxpyLayer.
 ```
@@ -58,8 +60,10 @@ The 2x2 Q matrix is symmetric and semidefinite
 
 5. Update the parameter (**τ** or **Q**).
 ```
+  ˙˙˙
   loss.backward(retain_graph=True)
   opt.step()
+  ˙˙˙
 ```
 
 ## Result
