@@ -6,7 +6,12 @@ This program requires CVXPY version 1.1.0 or greater.
 pip install --upgrade cvxpy
 ```
 
-## Description
+## Overview :
+Parameters of the Kalman filter must be determined experimentally, and this process takes a lot of time and effort, so we intend to automate this process using machine learning.
+
+This program learns the parameters of the Kalman filter using cvxpy, cvxpyLayer and pytorch
+
+## Dynamic system modeling
 
 A discrete-time linear dynamical system consists of a sequence of state vectors <strong>x<sub>t</sub> ∈ R<sup>2</sup></strong>  , indexed by time  <strong>t∈{0,…,N−1}</strong>  and dynamics equations
 
