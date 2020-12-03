@@ -6,7 +6,7 @@ This program requires CVXPY version 1.1.0 or greater.
 pip install --upgrade cvxpy
 ```
 
-## Discription
+## Description
 
 A discrete-time linear dynamical system consists of a sequence of state vectors <strong>x<sub>t</sub> ∈ R<sup>2</sup></strong>  , indexed by time  <strong>t∈{0,…,N−1}</strong>  and dynamics equations
 
