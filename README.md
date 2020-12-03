@@ -2,20 +2,12 @@
 
 ## Discription
 
-A discrete-time linear dynamical system consists of a sequence of state vectors $x_t \in \R^n$, indexed by time $t\in \{0,\dots,N-1\}$ and dynamics equations
+$$x_t \in \R^n$$
+![image](https://user-images.githubusercontent.com/57785895/100954675-5e466d00-3558-11eb-9d24-1f3021621c34.png)
 
-$$
-\begin{aligned}
-  x_{t+1} &= Ax_t + Bw_t \\
-  y_{t} &= Cx_t + v_t   
-\end{aligned}
-$$
+![image](https://user-images.githubusercontent.com/57785895/100954703-6bfbf280-3558-11eb-9037-b6fd9b90678c.png)
 
-where $w_t\in\R^m$ is an input to the dynamical system (say, a drive force on the vehicle), $y_t\in\R^r$ is a state measurement, $v_t\in\R^r$ is noise, $A$ is the drift matrix, $B$ is the input matrix, and $C$ is the observation matrix.
-
-Given $A$, $B$, $C$, and $y_t$ for $t=0,\dots,N−1$, the goal is to estimate $x_t$ for $t=0,\dots,N−1$.
-
-
+![image](https://user-images.githubusercontent.com/57785895/100954722-7918e180-3558-11eb-9874-f805494706eb.png)
 
 problem 1 : Learning tau
 result :
