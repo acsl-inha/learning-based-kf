@@ -6,7 +6,7 @@ This program requires CVXPY version 1.1.0 or greater.
 pip install --upgrade cvxpy
 ```
 
-## Overview :
+## Overview
 Parameters of the Kalman filter must be determined experimentally, but this process takes a lot of time and effort. So we intend to automate this process using machine learning.
 
 This program learns the parameters of the Kalman filter using **cvxpy**, **cvxpyLayer** and **pytorch**.
@@ -63,7 +63,7 @@ The 2x2 Q matrix is symmetric and semidefinite
   ˙˙˙
   loss.backward(retain_graph=True)
   opt.step()
-  ˙˙˙
+  ...
 ```
 
 ## Result
