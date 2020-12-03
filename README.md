@@ -3,6 +3,7 @@
 ## Note
 This program requires CVXPY version 1.1.0 or greater
 ```
+pip install cvxpy
 pip install --upgrade cvxpy
 ```
 and cvxpyLayer
