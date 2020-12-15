@@ -10,8 +10,13 @@ and cvxpyLayer
 ```
 pip install cvxpylayers
 ```
+After importing the cvxpy, you can cheak the version as bleow
+```
+import cvxpy as cp
+print(cp.__version__)
+```
 
-## Introduction
+## Goal
 Parameters of the Kalman filter must be determined experimentally, but this process takes a long time and effort. So we intended to automate this process using machine learning.
 
 This program learns the parameters of the Kalman filter using **cvxpy**, **cvxpyLayer** and **pytorch**.
@@ -88,6 +93,8 @@ The 2x2 Q matrix is symmetric and semidefinite
  
 ![Learning Q_2](https://user-images.githubusercontent.com/57785895/100187865-5cfbbb80-2f2c-11eb-9ab8-fab581ee8ae5.png)
 
+
+## Animation
 
 #### Learning Animation : τ 0.006 → 0.69
 
