@@ -10,7 +10,7 @@ and cvxpyLayer
 ```
 pip install cvxpylayers
 ```
-After importing the cvxpy, you can cheak the version as bleow
+After importing the cvxpy, you can check the version as bleow
 ```
 import cvxpy as cp
 print(cp.__version__)
