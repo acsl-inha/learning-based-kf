@@ -60,7 +60,7 @@ We simply assumed that **τ = 0.08** in the problem 1
 
   assert problem.is_dcp(dpp=True)
 ```
-2. Create a learning model for DPP problems with CvxpyLayer.
+2. Create a learning model for DPP problems using CvxpyLayer.
 ```
   layer = CvxpyLayer(problem, parameters=[tau_dpp], variables=[x_dpp, w_dpp, v_dpp])
 ```
