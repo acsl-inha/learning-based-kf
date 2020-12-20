@@ -43,6 +43,14 @@ A Kalman filter estimates   <strong>x<sub>t</sub></strong>  by solving the optim
 
 The 2x2 Q matrix is symmetric and semidefinite
 
+### Typcial Solution of the Dynamics
+Choosing the parameters, we can solve this problems by convex optimization.  
+We simply assumed that **τ = 0.08** in the problem 1
+
+![conventional_kf_1](https://user-images.githubusercontent.com/57785895/102709268-4b6bc080-42ec-11eb-9589-b44c83ab183c.png)
+
+![conventional_kf_2](https://user-images.githubusercontent.com/57785895/102709272-4f97de00-42ec-11eb-871d-778c0aa20dba.png)
+
 ## Learning Steps
 
 1. Define the convex opitmization problem using cvxpy and set it to Disciplined Parametrized Programming(DPP).
